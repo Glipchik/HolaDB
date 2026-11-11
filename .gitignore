@@ -1,0 +1,187 @@
+## .NET / C# / Visual Studio
+## https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.env
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+bld/
+artifacts/
+.artifacts/
+
+# Visual Studio cache/options
+.vs/
+
+# Visual Studio 2017+ auto-generated files
+Generated\ Files/
+
+# MSTest / VSTest
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*.ilk
+*.meta
+*.obj
+*.idb
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+# Directory.Build.rsp configures directory-level build defaults
+!Directory.Build.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# TeamCity
+_TeamCity*
+
+# Code coverage
+*.dotCover
+.axoCover/*
+!.axoCover/settings.json
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Publish output
+publish/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Azure build output
+csx/
+*.build.csdef
+
+# Windows Store / MSIX packages
+AppPackages/
+BundleArtifacts/
+*.appx
+*.appxbundle
+*.appxupload
+
+# Click-once and installer outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Cache files
+*.[Cc]ache
+!?*.[Cc]ache/
+
+# MSBuild binary and structured logs
+*.binlog
+MSBuild_Logs/
+
+# Upgrade backups
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+MigrationBackup/
+
+# Misc generated / local
+~$*
+*~
+ClientBin/
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+FakesAssemblies/
+*.GhostDoc.xml
+OpenCover/
+FodyWeavers.xsd
+**/.localhistory/
+.vshistory/
+.history/
+
+# VS Code (keep shared workspace files)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.vsix

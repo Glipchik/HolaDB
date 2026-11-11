@@ -1,0 +1,12 @@
+<Solution>
+  <Project Path="HolaDB.CLI/HolaDB.CLI.csproj" Id="8993151b-aaeb-461c-94da-a73b53b20fc4" />
+  <Project Path="HolaDB.Core/HolaDB.Core.csproj" Id="89ddd529-e905-4465-a646-ad652e553563" />
+  <Project Path="HolaDB.Indexes/HolaDB.Indexes.csproj" />
+  <Project Path="HolaDB.QueryEngine/HolaDB.QueryEngine.csproj" />
+  <Project Path="HolaDB.Recovery/HolaDB.Recovery.csproj" />
+  <Project Path="HolaDB.Server/HolaDB.Server.csproj" />
+  <Project Path="HolaDB.SqlParser/HolaDB.SqlParser.csproj" />
+  <Project Path="HolaDB.Storage/HolaDB.Storage.csproj" />
+  <Project Path="HolaDB.Tests/HolaDB.Tests.csproj" />
+  <Project Path="HolaDB.Transactions/HolaDB.Transactions.csproj" />
+</Solution>
