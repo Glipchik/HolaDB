@@ -1,6 +1,7 @@
 ﻿using HolaDB.CLI.Models.Options.Version;
 using HolaDB.CLI.Services;
 using HolaDB.CLI.Services.Interfaces;
+using HolaDB.SqlParser.DI;
 using HolaDB.Storage.DI;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,6 +18,7 @@ services.Configure<VersionOptions>(
 services.AddSingleton<IValidateOptions<VersionOptions>, VersionOptionsValidator>();
 
 services.AddStorageDependencies();
+services.AddParserDependencies();
 services.AddSingleton<ICliClient, CliClient>();
 
 
